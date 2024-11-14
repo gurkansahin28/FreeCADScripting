@@ -8,3 +8,17 @@
     <li>C. Advanced</li>
     <li>D. Expert</li>
 </ul>
+
+<p>It is under <a href = 'https://github.com/gurkansahin28/FreeCADScripting?tab=CC0-1.0-1-ov-file#readme'>License: CC0-1.0</a>
+</p>
+
+<p>
+    <ul>
+        <li>
+        Author: gurkan
+        </li>
+        <li>
+        email: gurkansahin28@gmail.com
+        </li>
+    </ul>
+</p>
