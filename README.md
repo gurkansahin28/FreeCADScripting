@@ -3,7 +3,7 @@
 
 <h2>Levels</h2>
 <ul>
-    <li><a href = 'gurkansahin28/FreeCADScripting/A_BEGINNER'>A. Beginner</a></li>
+    <li><a href = 'A_BEGINNER'>A. Beginner</a></li>
     <li>B. Intermediate</li>
     <li>C. Advanced</li>
     <li>D. Expert</li>
