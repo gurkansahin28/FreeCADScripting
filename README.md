@@ -20,5 +20,8 @@
         <li>
         email: gurkansahin28@gmail.com
         </li>
+
     </ul>
 </p>
+
+<li><a href="mailto:someone@example.com">email</a></li>
