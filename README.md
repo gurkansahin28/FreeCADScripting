@@ -18,10 +18,6 @@
         Author: gurkan
         </li>
         <li>
-        email: gurkansahin28@gmail.com
-        </li>
-
+        <a href="mailto:gurkansahin28@gmail.com">email</a>        </li>
     </ul>
 </p>
-
-<li><a href="mailto:someone@example.com">email</a></li>
