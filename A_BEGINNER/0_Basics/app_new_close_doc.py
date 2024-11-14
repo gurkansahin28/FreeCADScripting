@@ -28,3 +28,4 @@ input('Press Enter to colse the document without saving!..')
 # This code line closes the document named as 'docName'
 App.closeDocument(docName)
 
+print(f"\'{docName}\' was closed!..")
