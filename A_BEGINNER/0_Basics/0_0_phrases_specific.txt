@@ -1,0 +1,92 @@
+FreeCAD
+-------
+FreeCAD -> App
+
+FreeCADGui
+----------
+FreeCADGui -> Gui
+Gui.ActiveDocument.ActiveView -> GuiView
+
+Document
+--------
+document -> doc
+document name -> docName
+
+Object
+------
+object -> obj
+object name -> objName
+
+Library
+-------
+library -> lib
+from library -> fromLib
+object from library -> objFromLib
+
+Placement
+---------
+placement -> place
+
+default placement -> defPlace
+object's default placement -> objDefPlace
+
+previous placement -> prePlace
+object's previous placement -> objPrePlace
+
+new placement -> newPlace
+object's new placement -> objNewPlace
+
+next placement -> nextPlace
+object's next placement -> objNextPlace
+
+
+Placement.Base
+--------------
+Placement.Base -> placeBase
+
+default placement base -> defPlaceBase
+object's default placement base -> objDefPlaceBase
+
+previous placement base -> prePlaceBase
+object's previous placement base -> objPrePlaceBase
+
+new placement base -> newPlaceBase
+object's new placement base -> objNewPlaceBase
+
+next placement base -> nextPlaceBase
+object's next placement base -> objNextPlaceBase
+
+Placement.Rotation
+------------------
+rotation -> rot
+Placement.Rotation -> placeRot
+around x -> aroundX
+angle -> angle
+
+default placement rotation -> defPlaceRot
+object's default placement rotation -> objDefPlaceRot
+
+previous placement rotation -> prePlaceRot
+object's previous placement rotation -> objPrePlaceRot
+
+new placement rotation -> newPlaceRot
+object's new placement rotation -> objNewPlaceRot
+
+next placement rotation -> nextPlaceRot
+object's next placement rotation -> objNextPlaceRot
+
+Vector
+------
+vector -> vector -> vec
+
+factor vector -> factorVector -> factVector -> factVec
+
+Circle
+------
+circle -> circle
+
+radius -> radius
+
+the circle's first angle -> firstAngle -> fAngle
+
+the circle's last angle -> lastAngle -> lAngle
