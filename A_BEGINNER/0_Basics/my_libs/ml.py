@@ -1,33 +1,59 @@
 """
-Some specific functions to shorten coding workload.
+PERSPECTIVE
+-----------
+Open Source Applications is crucial for
+    students who will be an entrepreneur one day,
+    teachers who struggle with educational materials
+    parents who try to afford educational expenditure
+    governments who want to be classified.
 
-To use it as a library,
-First:
-
-import sys
-sys.path.append('/path/to/this/file')
-
-And then:
-
-import ml
+AIMS
+----
+    To contribute to the FreeCAD Community.
+    To reduce the coding workload while working with FreeCAD's Python Console.
+    To ignite more specific, detailed and complicated libraries.
+    
 
 
-Finally in Python Console of FreeCAD:
+CONTENT
+-------
+    Some specific functions to shorten coding workload.
 
-result = ml.some_function()
+
+USAGE OF THE MY LIBRARY
+-----------------------
+    To use it as a library,
+    First:
+
+    import sys
+    sys.path.append('/path/to/this/file')
+
+    And then:
+
+    import ml
+
+
+    Finally in Python Console of FreeCAD:
+
+    result = ml.some_function()
 
 
 Created on Thu Nov 21 14:56:27 2024
 
+
 license: 
 -------
-CCO 1.0
-https://creativecommons.org/publicdomain/zero/1.0/
+    CCO 1.0
+    https://creativecommons.org/publicdomain/zero/1.0/
 
 @author: gurkan
 gurkansahin28@gmail.com
-"""
 
+Notes:
+    For the future improvements:
+        Group related functions into classes(ConsoleManager, ObjectManager)
+        Adding Logger to track errors and events for better debugging.
+"""
 
 
 import FreeCAD as App # type: ignore
@@ -55,7 +81,8 @@ def txtRv(msg):
     reportView = mainWindow.findChild(QtGui.QTextEdit, reportView)
     if not reportView:
         raise ValueError("Report View not found")
-    reportView.append(msg)
+    time = whatTime()
+    reportView.append(f'{time}: {msg}')
     #reportView.setPlainText(msg)
     pass
 
@@ -367,3 +394,20 @@ def newUniqDoc(topic = 'Doc'):
     specificDocName = uniqDocName(topic)
     doc = newDoc(specificDocName)
     return doc
+
+
+# creating the hour and minute info
+def whatTime():
+    '''Create the time info.
+        Args: It doesn't take any argument.
+        Return:
+            time (str): An info which is formatted like hour:mintues:seconds
+        Example:
+            t = ml.whatTime()
+    '''
+    now = datetime.now()
+    hour = now.strftime('%H')
+    minutes = now.minute
+    seconds = now.strftime('%S')
+    time = f'{hour}:{minutes}:{seconds}'
+    return time
